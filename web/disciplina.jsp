@@ -6,8 +6,9 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<%! double p1 = 0;
-    String[] disciplina = Disciplina[]{"IAL002","IBD002","IED001","ILP007","ILP512","ISO200","LIN400","TTG001"}
+<% double p1 = 0;
+    double p2 = 0;
+    String[] disciplina = new String[]{"IAL002","IBD002","IED001","ILP007","ILP512","ISO200","LIN400","TTG001"};
 %>
 <html>
     <head>
@@ -17,8 +18,8 @@
     <body>
         <%@include file="WEB-INF/jspf/header.jspf" %>
         <%
-           p1= Double.parseDouble(request.getParameter("p1"));
-           p2= Double.parseDouble(request.getParameter("p2"));
+           p1 = Double.parseDouble(request.getParameter("p1"));
+           p2 = Double.parseDouble(request.getParameter("p2"));
            
            %>
     <lu>disciplinas
