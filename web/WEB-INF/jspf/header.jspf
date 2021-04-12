@@ -4,6 +4,8 @@
     
     if(request.getParameter("login")!=null){
         %>bom dia, <%request.getParameter("nome");
+        
+        response.sendRedirect("disciplina.jsp");
         %><form>
             <input type="submit" value="logout">
         </form><%if(request.getParameter("logout")!=null){
