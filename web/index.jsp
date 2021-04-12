@@ -9,9 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Avaliação-index</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <%@include file="WEB-INF/jspf/header.jspf" %>
+        <h2>Nome:Danilo Novaes Santana</h2>
+        <h2>RA:1290481922012</h2>
+        <a href="https://github.com/danilo-1/avaliaJava">git da avaliação</a>
+        <a href="https://github.com/danilo-1"></a>
     </body>
 </html>
